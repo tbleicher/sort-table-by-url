@@ -1,0 +1,31 @@
+.pure-table {
+  border-collapse: collapse;
+  display: table;
+  border-spacing: 0;
+  empty-cells: show;
+  border: 1px solid #cbcbcb;
+}
+.pure-table td,
+.pure-table th {
+  padding: 0.5em;
+  border: 1px solid #cbcbcb;
+}
+.pure-table th {
+  font-weight: 600;
+}
+.pure-table th {
+  border-right: 1px solid white;
+}
+.pure-table th:last-child {
+  border-right: 1px solid #cbcbcb;
+}
+#urltable {
+  margin: 20px auto;
+  width: 90%;
+}
+#urltable thead {
+  background-color: #cbcbcb;
+}
+#urltable tr:nth-child(even) {
+  background-color: #eee;
+}
